@@ -1,0 +1,37 @@
+{
+    "name": "happgo/happy",
+    "type": "project",
+    "keywords": [
+        "php",
+        "swoole"
+    ],
+    "description": "happy to do something",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">7.1",
+        "happgo/framework": "dev-master",
+        "happgo/bean": "dev-master"
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/xiao/Desktop/code/happgo/framework"
+        },
+        {
+            "type": "path",
+            "url": "/Users/xiao/Desktop/code/happgo/bean"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/functions.php"
+        ]
+    }
+}
