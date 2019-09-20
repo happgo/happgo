@@ -10,8 +10,14 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">7.1",
+        "ext-pdo": "*",
+        "ext-redis": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
         "happgo/framework": "dev-master",
-        "happgo/bean": "dev-master"
+        "happgo/bean": "dev-master",
+        "happgo/lib": "dev-master",
+        "happgo/db": "dev-master"
     },
     "require-dev": {
         "eaglewu/swoole-ide-helper": "dev-master"
@@ -24,6 +30,10 @@
         {
             "type": "path",
             "url": "/Users/xiao/Desktop/code/happgo/bean"
+        },
+        {
+            "type": "path",
+            "url": "/Users/xiao/Desktop/code/happgo/db"
         }
     ],
     "autoload": {
